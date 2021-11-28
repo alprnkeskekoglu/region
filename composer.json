@@ -1,0 +1,19 @@
+{
+    "name": "dawnstar/region",
+    "description": "Package for Dawnstar CMS",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Dawnstar\\Region\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dawnstar\\Region\\RegionServiceProvider"
+            ]
+        }
+    }
+}
